@@ -17,6 +17,7 @@ public class JdbcUtils {
         try {
             Properties properties = new Properties();
             InputStream inputStream = JdbcUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
+//            InputStream inputStream = ClassLoader.getSystemClassLoader().getResourceAsStream("jdbc.properties");
 //            String path = System.getProperty("user.dir") + "\\src\\main\\java\\jdbc.properties";
 //            FileInputStream inputStream = new FileInputStream(path);
             properties.load(inputStream);
@@ -24,6 +25,8 @@ public class JdbcUtils {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+//        System.out.println(JdbcUtils.class.getClassLoader());
     }
 
     public static Connection getConnection() {

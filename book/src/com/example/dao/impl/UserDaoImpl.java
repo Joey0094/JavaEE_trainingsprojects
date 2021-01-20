@@ -2,7 +2,10 @@ package com.example.dao.impl;
 
 import com.example.dao.BaseDao;
 import com.example.dao.UserDao;
+import com.example.pojo.Book;
 import com.example.pojo.User;
+
+import java.util.List;
 
 public class UserDaoImpl extends BaseDao implements UserDao {
 
