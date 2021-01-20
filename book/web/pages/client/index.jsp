@@ -103,7 +103,7 @@
 	$(function() {
 		$("button.addToCart").click(function() {
 			let bookId = $(this).attr("bookId")
-			location.href = "http://" + location.host + "/book_3/cartServlet?action=addItem&id=" + bookId
+			location.href = "http://" + location.host + "/book/cartServlet?action=addItem&id=" + bookId
 			// alert(location.host + "/cartServlet?action=addItem&id=" + bookId)
 		})
 	})
