@@ -1,3 +1,3 @@
-# JavaEE_trainingsprojects
+# Java_trainingsprojects
 
-some trainings about JavaEE
+some trainings about Java
